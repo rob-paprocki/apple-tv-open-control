@@ -1,0 +1,30 @@
+# Local-only files, never committed.
+wordlist.local
+*.local
+
+# Local tool state
+.claude/
+
+# Pairing credentials hold long-term private keys
+*.atvcred
+*.credentials
+credentials*.json
+.pyatv.conf
+pyatv.conf
+pairing-bundle*.json
+
+# Downloaded vendor files and local builds
+vendor-reference/
+*.pkp
+Apple TV.pkg
+Apple TV.dll
+AppleDACPClient.*
+pyatv-*.tar.gz
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# OS metadata
+.DS_Store
